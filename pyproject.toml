@@ -1,0 +1,17 @@
+[project]
+name = "chatbot01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ayisha Khan", email = "ayeshakhan228276@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+chatbot01 = "chatbot01:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
